@@ -8,6 +8,58 @@
 				<German>Besetzen Sie die markierten Gebiete und halten Sie sie gegen den Feind.</German>
 			</Key>
 		</Container>
+		<Container name="Parameters">
+			<Key ID="str_gruenerlachs_param_time">
+				<Original>Time</Original>
+				<English>Time</English>
+				<German>Uhrzeit</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_morning">
+				<Original>Morning</Original>
+				<English>Morning</English>
+				<German>Morgens</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_noon">
+				<Original>Noon</Original>
+				<English>Noon</English>
+				<German>Mittags</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_evening">
+				<Original>Evening</Original>
+				<English>Evening</English>
+				<German>Abends</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_night">
+				<Original>Night</Original>
+				<English>Night</English>
+				<German>Nachts</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_car_respawn_delay">
+				<Original>M-ATV/Punisher Respawn Delay</Original>
+				<English>M-ATV/Punisher Respawn Delay</English>
+				<German>M-ATV/Punisher Respawn-Verzögerung</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_support_respawn_delay">
+				<Original>Support Vehicles Respawn Delay</Original>
+				<English>Support Vehicles Respawn Delay</English>
+				<German>Unterstützungsfahrzeuge Respawn-Verzögerung</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_tank_respawn_delay">
+				<Original>Tank Respawn Delay</Original>
+				<English>Tank Respawn Delay</English>
+				<German>Panzer Respawn-Verzögerung</German>
+			</Key>
+			<Key ID="STR_gruenerlachs_param_attack_heli_respawn_delay">
+				<Original>Attack Heli Respawn Delay</Original>
+				<English>Attack Heli Respawn Delay</English>
+				<German>Angriffshubschrauber Respawn-Verzögerung</German>
+			</Key>
+			<Key ID="STR_gruenerlachs_param_light_heli_respawn_delay">
+				<Original>Light Heli Respawn Delay</Original>
+				<English>Light Heli Respawn Delay</English>
+				<German>Leichte Hubschrauber Respawn-Verzögerung</German>
+			</Key>
+		</Container>
 		<Container name="General">
 			<Key ID="str_gruenerlachs_virtual_arsenal">
 				<Original>Virtual Arsenal</Original>

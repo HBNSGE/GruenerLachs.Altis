@@ -18,13 +18,55 @@ class Header
 
 class Params
 {
-		class Daytime
+	class Daytime
 	{
-		title = "Time";
-		texts[] = {"Morning","Day","Evening","Night"};
+		title = $STR_gruenerlachs_param_time;
+		texts[] = {$STR_gruenerlachs_param_morning,$STR_gruenerlachs_param_noon,$STR_gruenerlachs_param_evening,$STR_gruenerlachs_param_night};
 		values[] = {6,12,18,0};
 		default = 12;
 		function = "BIS_fnc_paramDaytime"; // (Optional) Function called when player joins, selected value is passed as an argument
- 		isGlobal = 0; // (Optional) 1 to execute script / function locally for every player who joins, 0 to do it only on server
+ 		isGlobal = 1; // (Optional) 1 to execute script / function locally for every player who joins, 0 to do it only on server
+	};
+	
+	class CarRespawnDelay
+	{
+		title = $STR_gruenerlachs_param_car_respawn_delay;
+		values[] = {120,180,300};
+		default = 180;
+	};
+	
+	class SupportRespawnDelay
+	{
+		title = $STR_gruenerlachs_param_support_respawn_delay;
+		values[] = {120,180,300,450};
+		default = 300;
+	};
+	
+	class TankRespawnDelay
+	{
+		title = $STR_gruenerlachs_param_tank_respawn_delay;
+		values[] = {600,750,900};
+		default = 600;
+	};
+	
+	class AttackHeliRespawnDelay
+	{
+		title = $STR_gruenerlachs_param_attack_heli_respawn_delay;
+		values[] = {600,750,900};
+		default = 600;
+	};
+	
+	class LightHeliRespawnDelay
+	{
+		title = $STR_gruenerlachs_param_light_heli_respawn_delay;
+		values[] = {300,600,750,900};
+		default = 600;
+	};
+	
+	class Tickets
+	{
+		title = $STR_gruenerlachs_param_tickets;
+		value[] = {250,500,750,1000,1250,1500};
+		default = 250;
 	};
 };
