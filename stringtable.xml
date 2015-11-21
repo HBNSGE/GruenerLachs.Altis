@@ -22,8 +22,8 @@
 		</Container>
 		<Container name="Countdown">
 			<Key ID="str_gruenerlachs_countdown_text">
-				<Original>Time to start: %1</Original>
-				<English>Time to start: %1</English>
+				<Original>Time until start: %1</Original>
+				<English>Time until start: %1</English>
 				<German>Zeit bis zum Start: %1</German>
 			</Key>
 		</Container>
