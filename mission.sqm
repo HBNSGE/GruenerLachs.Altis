@@ -110,11 +110,12 @@ class Mission
 				class Item0
 				{
 					position[]={23232.719,13.196411,19904.75};
-					azimut=142.76781;
+					azimut=142.76801;
 					special="NONE";
 					id=0;
 					side="WEST";
 					vehicle="BWA3_TL_Fleck";
+					player="PLAYER COMMANDER";
 					leader=1;
 					skill=0.60000002;
 					text="b1";
