@@ -1852,7 +1852,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=42;
+		items=43;
 		class Item0
 		{
 			position[]={23207.439,13.304402,19894.887};
@@ -2035,7 +2035,7 @@ class Mission
 		};
 		class Item15
 		{
-			position[]={27091.316,14.248818,23433.197};
+			position[]={27092.867,14.00729,23439.885};
 			azimut=163.05701;
 			id=54;
 			side="EMPTY";
@@ -2098,6 +2098,8 @@ class Mission
 			vehicle="CamoNet_BLUFOR_big_F";
 			leader=1;
 			skill=0.60000002;
+			text="tent1";
+			init="tent1 allowDamage false;";
 		};
 		class Item21
 		{
@@ -2242,7 +2244,7 @@ class Mission
 		};
 		class Item34
 		{
-			position[]={27096.939,14.266462,23432.598};
+			position[]={27099.568,14.398305,23429.041};
 			azimut=213.64301;
 			id=73;
 			side="EMPTY";
@@ -2323,6 +2325,19 @@ class Mission
 			lock="LOCKED";
 			skill=0.60000002;
 		};
+		class Item42
+		{
+			position[]={27094.232,14.079272,23437.809};
+			azimut=-51.138;
+			special="NONE";
+			id=81;
+			side="EMPTY";
+			vehicle="CamoNet_BLUFOR_big_F";
+			leader=1;
+			skill=0.60000002;
+			text="tent2";
+			init="tent2 allowDamage false;";
+		};
 	};
 	class Markers
 	{
@@ -2335,7 +2350,7 @@ class Mission
 		};
 		class Item1
 		{
-			position[]={27096.9,14.354919,23430.156};
+			position[]={27098.057,14.438735,23428.031};
 			name="respawn_east";
 			type="flag_CSAT";
 		};
@@ -3250,6 +3265,42 @@ class Mission
 			a=50;
 			b=50;
 			angle=-67.640198;
+		};
+	};
+	class Sensors
+	{
+		items=2;
+		class Item0
+		{
+			position[]={27088.297,15.198281,23411.469};
+			a=200;
+			b=200;
+			activationBy="WEST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="opfor_protection";
+			expCond="Player in thislist;";
+			expActiv="player setdamage 1; hint ""Keine Spawnzonen belagern! ;)""";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={23191.662,13.367141,19920.33};
+			a=200;
+			b=200;
+			activationBy="EAST";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="blufor_protection";
+			expCond="Player in thislist;";
+			expActiv="player setdamage 1; hint ""Keine Spawnzonen belagern! ;)""";
+			class Effects
+			{
+			};
 		};
 	};
 };
