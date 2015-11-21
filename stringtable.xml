@@ -35,29 +35,34 @@
 				<German>Nachts</German>
 			</Key>
 			<Key ID="str_gruenerlachs_param_car_respawn_delay">
-				<Original>M-ATV/Punisher Respawn Delay</Original>
-				<English>M-ATV/Punisher Respawn Delay</English>
-				<German>M-ATV/Punisher Respawn-Verzögerung</German>
+				<Original>M-ATV/Punisher Respawn Delay (in seconds)</Original>
+				<English>M-ATV/Punisher Respawn Delay (in seconds)</English>
+				<German>M-ATV/Punisher Respawn-Verzögerung (in Sekunden)</German>
 			</Key>
 			<Key ID="str_gruenerlachs_param_support_respawn_delay">
-				<Original>Support Vehicles Respawn Delay</Original>
-				<English>Support Vehicles Respawn Delay</English>
-				<German>Unterstützungsfahrzeuge Respawn-Verzögerung</German>
+				<Original>Support Vehicles Respawn Delay (in seconds)</Original>
+				<English>Support Vehicles Respawn Delay (in seconds)</English>
+				<German>Unterstützungsfahrzeuge Respawn-Verzögerung (in Sekunden)</German>
 			</Key>
 			<Key ID="str_gruenerlachs_param_tank_respawn_delay">
-				<Original>Tank Respawn Delay</Original>
-				<English>Tank Respawn Delay</English>
-				<German>Panzer Respawn-Verzögerung</German>
+				<Original>Tank Respawn Delay (in seconds)</Original>
+				<English>Tank Respawn Delay (in seconds)</English>
+				<German>Panzer Respawn-Verzögerung (in Sekunden)</German>
 			</Key>
-			<Key ID="STR_gruenerlachs_param_attack_heli_respawn_delay">
-				<Original>Attack Heli Respawn Delay</Original>
-				<English>Attack Heli Respawn Delay</English>
+			<Key ID="str_gruenerlachs_param_attack_heli_respawn_delay">
+				<Original>Attack Heli Respawn Delay (in seconds)</Original>
+				<English>Attack Heli Respawn Delay (in seconds)</English>
 				<German>Angriffshubschrauber Respawn-Verzögerung</German>
 			</Key>
-			<Key ID="STR_gruenerlachs_param_light_heli_respawn_delay">
-				<Original>Light Heli Respawn Delay</Original>
-				<English>Light Heli Respawn Delay</English>
-				<German>Leichte Hubschrauber Respawn-Verzögerung</German>
+			<Key ID="str_gruenerlachs_param_light_heli_respawn_delay">
+				<Original>Light Heli Respawn Delay (in seconds)</Original>
+				<English>Light Heli Respawn Delay (in seconds)</English>
+				<German>Leichte Hubschrauber Respawn-Verzögerung (in Sekunden)</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_tickets">
+				<Original>Tickets</Original>
+				<English>Tickets</English>
+				<German>Tickets</German>
 			</Key>
 		</Container>
 		<Container name="General">
