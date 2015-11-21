@@ -1,0 +1,1 @@
+nul = [300] execVM "countdown.sqf";

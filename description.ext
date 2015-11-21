@@ -1,0 +1,16 @@
+respawn = "BASE";
+respawndelay = "20";
+disabledAI = 1;
+author = "Flower";
+saving = 0;
+overviewText = "Sichern Sie die Sektoren und verteidigen Sie die Ihre.";
+overviewTextLocked = "Sichern Sie die Sektoren und verteidigen Sie die Ihre.";
+overviewPicture = "overviw.paa";
+loadScreen = "overviw.paa";
+
+class Header
+{
+	gameType = SC; // Game type, see 'class' columns in the table below
+	minPlayers = 1; //min # of players the mission supports
+	maxPlayers = 16; //max # of players the mission supports
+};
