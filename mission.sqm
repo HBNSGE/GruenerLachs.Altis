@@ -535,13 +535,13 @@ class Mission
 						items=15;
 						class Item0
 						{
-							value="$str_gruenerlachs_area_power_plant";
+							value="str_gruenerlachs_area_power_plant";
 							parentCls="ModuleSector_F";
 							typeName="Name";
 						};
 						class Item1
 						{
-							value="$str_gruenerlachs_area_power_plant_short";
+							value="E";
 							parentCls="ModuleSector_F";
 							typeName="Designation";
 						};
@@ -651,13 +651,13 @@ class Mission
 						items=15;
 						class Item0
 						{
-							value="$str_gruenerlachs_area_sofia_center";
+							value="str_gruenerlachs_area_sofia_center";
 							parentCls="ModuleSector_F";
 							typeName="Name";
 						};
 						class Item1
 						{
-							value="$str_gruenerlachs_area_sofia_center_short";
+							value="B";
 							parentCls="ModuleSector_F";
 							typeName="Designation";
 						};
@@ -1154,13 +1154,13 @@ class Mission
 						items=15;
 						class Item0
 						{
-							value="$str_gruenerlachs_area_beach";
+							value="str_gruenerlachs_area_beach";
 							parentCls="ModuleSector_F";
 							typeName="Name";
 						};
 						class Item1
 						{
-							value="$str_gruenerlachs_area_beach_short";
+							value="D";
 							parentCls="ModuleSector_F";
 							typeName="Designation";
 						};
@@ -1275,7 +1275,7 @@ class Mission
 						};
 						class Item1
 						{
-							value="G";
+							value="C";
 							parentCls="ModuleSector_F";
 							typeName="Designation";
 						};
@@ -1378,19 +1378,19 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={25294.633,83.839478,21822.344};
+					position[]={25314.701,82.098015,21808.52};
 					class args
 					{
 						items=15;
 						class Item0
 						{
-							value="$str_gruenerlachs_area_military_base";
+							value="str_gruenerlachs_area_military_base";
 							parentCls="ModuleSector_F";
 							typeName="Name";
 						};
 						class Item1
 						{
-							value="$str_gruenerlachs_area_military_base_short";
+							value="A";
 							parentCls="ModuleSector_F";
 							typeName="Designation";
 						};
