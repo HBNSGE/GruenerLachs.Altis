@@ -1,10 +1,11 @@
 respawn = "BASE";
 respawndelay = "20";
+respawnButton = 0;
 disabledAI = 1;
-author = "Flower";
+author = "HBNSGE";
 saving = 0;
-overviewText = "Sichern Sie die Sektoren und verteidigen Sie die Ihre.";
-overviewTextLocked = "Sichern Sie die Sektoren und verteidigen Sie die Ihre.";
+overviewText = $STR_gruenerlachs_overview_text;
+overviewTextLocked = $STR_gruenerlachs_overview_text;
 overviewPicture = "overviw.paa";
 loadScreen = "overviw.paa";
 

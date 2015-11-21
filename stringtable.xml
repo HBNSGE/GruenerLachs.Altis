@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="SC - Grüner Lachs">
+	<Package name="Mission">
+		<Container name="Overview Texts">
+			<Key ID="str_gruenerlachs_overview_text">
+				<Original>Seize the marked areas and hold them against the enemy.</Original>
+				<English>Seize the marked areas and hold them against the enemy.</English>
+				<German>Besetzen Sie die markierten Gebiete und halten Sie sie gegen den Feind.</German>
+			</Key>
+		</Container>
+		<Container name="General">
+			<Key ID="str_gruenerlachs_virtual_arsenal">
+				<Original>Virtual Arsenal</Original>
+				<English>Virtual Arsenal</English>
+				<German>Virtuelles Arsenal</German>
+			</Key>
+			<Key ID="str_gruenerlachs_take_control">
+				<Original>Take Control</Original>
+				<English>Take Control</English>
+				<German>Kontrolle übernehmen</German>
+			</Key>
+		</Container>
+		<Container name="Countdown">
+			<Key ID="str_gruenerlachs_countdown_text">
+				<Original>Time to start: %1</Original>
+				<English>Time to start: %1</English>
+				<German>Zeit bis zum Start: %1</German>
+			</Key>
+		</Container>
+		<Container name="Area Names North East">
+			<Key ID="str_gruenerlachs_area_power_plant">
+				<Original>Power Plant</Original>
+				<English>Power Plant</English>
+				<German>Kraftwerk</German>
+			</Key>
+			<Key ID="str_gruenerlachs_area_power_plant_short">
+				<Original>P</Original>
+				<English>P</English>
+				<German>K</German>
+			</Key>
+			<Key ID="str_gruenerlachs_area_beach">
+				<Original>Beach</Original>
+				<English>Beach</English>
+				<German>Strand</German>
+			</Key>
+			<Key ID="str_gruenerlachs_area_beach_short">
+				<Original>B</Original>
+				<English>B</English>
+				<German>S</German>
+			</Key>
+			<Key ID="str_gruenerlachs_area_sofia_center">
+				<Original>Sofia Center</Original>
+				<English>Sofia Center</English>
+				<German>Sofia Zentrum</German>
+			</Key>
+			<Key ID="str_gruenerlachs_area_sofia_center_short">
+				<Original>C</Original>
+				<English>C</English>
+				<German>Z</German>
+			</Key>
+			<Key ID="str_gruenerlachs_area_military_base">
+				<Original>Military Base</Original>
+				<English>Military Base</English>
+				<German>Militärbasis</German>
+			</Key>
+			<Key ID="str_gruenerlachs_area_military_base_short">
+				<Original>M</Original>
+				<English>M</English>
+				<German>M</German>
+			</Key>
+		</Container>
+	</Package>
+</Project>	
