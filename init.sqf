@@ -1,1 +1,8 @@
-nul = [300] execVM "countdown.sqf";
+
+GruenerLachsShowCountDown = {
+	hintSilent format [localize "str_gruenerlachs_countdown_text",_this];
+};
+
+if (isServer) then {
+	nul = [300] execVM "countdown.sqf";
+};

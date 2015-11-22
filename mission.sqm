@@ -304,7 +304,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={23207.848,13.352434,19879.627};
+					position[]={23074.775,13.925384,19885.703};
 					class args
 					{
 						items=10;
@@ -929,7 +929,7 @@ class Mission
 						};
 						class Item5
 						{
-							value="0";
+							value="1";
 							parentCls="ACE_moduleRepairSettings";
 							typeName="fullRepairLocation";
 						};
@@ -1618,7 +1618,7 @@ class Mission
 					skill=0.60000002;
 					text="support_respawn_east";
 					syncId=13;
-					synchronizations[]={40,44,45};
+					synchronizations[]={40,43,44};
 				};
 			};
 		};
@@ -1809,7 +1809,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={23224.188,13.315605,19866.613};
+					position[]={23078.051,14.100544,19893.502};
 					class args
 					{
 						items=10;
@@ -1894,7 +1894,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={23179.305,13.41,19874.525};
+					position[]={23082.842,14.333911,19902.779};
 					class args
 					{
 						items=10;
@@ -1967,7 +1967,7 @@ class Mission
 					skill=0.60000002;
 					text="tank_respawn_west";
 					syncId=16;
-					synchronizations[]={43,27};
+					synchronizations[]={27};
 				};
 			};
 		};
@@ -1979,7 +1979,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={23175.09,13.41,19902.992};
+					position[]={23087.592,14.548013,19916.057};
 					class args
 					{
 						items=10;
@@ -2064,7 +2064,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={23166.363,13.41,19895.895};
+					position[]={23085.701,14.43539,19908.504};
 					class args
 					{
 						items=10;
@@ -2358,11 +2358,11 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=43;
+		items=42;
 		class Item0
 		{
 			position[]={23207.439,13.304402,19894.887};
-			azimut=60.569874;
+			azimut=60.569901;
 			id=45;
 			side="EMPTY";
 			vehicle="B_MRAP_01_F";
@@ -2373,7 +2373,7 @@ class Mission
 		};
 		class Item1
 		{
-			position[]={23170.336,13.41,19887.635};
+			position[]={23168.664,13.41,19887.787};
 			azimut=61.135201;
 			id=46;
 			side="EMPTY";
@@ -2421,7 +2421,7 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={23193.996,13.393769,19886.678};
+			position[]={23193.541,13.395276,19882.879};
 			azimut=60.569901;
 			id=50;
 			side="EMPTY";
@@ -2431,7 +2431,7 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={23198.104,13.388389,19878.264};
+			position[]={23196.74,13.391922,19875.074};
 			azimut=60.569901;
 			id=51;
 			side="EMPTY";
@@ -2443,7 +2443,7 @@ class Mission
 		};
 		class Item7
 		{
-			position[]={23189.322,13.391802,19903.564};
+			position[]={23187.805,13.395335,19905.385};
 			azimut=60.569901;
 			id=52;
 			side="EMPTY";
@@ -2455,7 +2455,7 @@ class Mission
 		};
 		class Item8
 		{
-			position[]={23188.271,13.39924,19894.021};
+			position[]={23187.359,13.401472,19894.172};
 			azimut=60.569901;
 			id=53;
 			side="EMPTY";
@@ -2818,37 +2818,26 @@ class Mission
 		};
 		class Item40
 		{
-			position[]={23192.652,15.851306,19885.383};
-			azimut=60.569901;
-			id=85;
-			side="EMPTY";
-			vehicle="BWA3_Puma_Tropen";
-			skill=0.60000002;
-			syncId=43;
-			synchronizations[]={16};
-		};
-		class Item41
-		{
 			position[]={27108.324,14.845058,23418.191};
 			azimut=341.04501;
-			id=86;
+			id=85;
 			side="EMPTY";
 			vehicle="O_Truck_03_repair_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			syncId=44;
+			syncId=43;
 			synchronizations[]={13};
 		};
-		class Item42
+		class Item41
 		{
 			position[]={27115.469,14.742778,23420.539};
 			azimut=341.04501;
-			id=87;
+			id=86;
 			side="EMPTY";
 			vehicle="O_Truck_03_fuel_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			syncId=45;
+			syncId=44;
 			synchronizations[]={13};
 		};
 	};
@@ -3785,7 +3774,7 @@ class Mission
 		items=2;
 		class Item0
 		{
-			position[]={27088.297,15.198281,23411.469};
+			position[]={27108.014,13.912878,23442.418};
 			a=200;
 			b=200;
 			activationBy="WEST";
@@ -3801,7 +3790,7 @@ class Mission
 		};
 		class Item1
 		{
-			position[]={23191.662,13.367141,19920.33};
+			position[]={23222.002,13.236812,19894.719};
 			a=200;
 			b=200;
 			activationBy="EAST";
