@@ -1,0 +1,3 @@
+[submodule "HBNSGE_A3_Tools"]
+	path = HBNSGE_A3_Tools
+	url = https://github.com/HBNSGE/HBNSGE_A3_Tools.git
