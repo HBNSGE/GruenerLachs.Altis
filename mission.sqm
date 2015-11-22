@@ -36,7 +36,8 @@ class Mission
 		"A3_Air_F_Beta_Heli_Attack_02",
 		"A3_Structures_F_Mil_Flags",
 		"A3_Soft_F_Gamma_HEMTT",
-		"A3_Soft_F_EPC_Truck_03"
+		"A3_Soft_F_EPC_Truck_03",
+		"A3_Structures_F_Civ_Lamps"
 	};
 	addOnsAuto[]=
 	{
@@ -73,6 +74,7 @@ class Mission
 		"A3_Structures_F_Mil_Flags",
 		"A3_Soft_F_Gamma_HEMTT",
 		"A3_Soft_F_EPC_Truck_03",
+		"A3_Structures_F_Civ_Lamps",
 		"a3_map_altis"
 	};
 	randomSeed=15695273;
@@ -2358,7 +2360,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=42;
+		items=50;
 		class Item0
 		{
 			position[]={23207.439,13.304402,19894.887};
@@ -2841,6 +2843,76 @@ class Mission
 			skill=0.60000002;
 			syncId=45;
 			synchronizations[]={13};
+		};
+		class Item42
+		{
+			position[]={23206.488,13.228015,19915.531};
+			id=87;
+			side="EMPTY";
+			vehicle="Land_LampShabby_F";
+			skill=0.60000002;
+		};
+		class Item43
+		{
+			position[]={23214.051,13.255215,19924.338};
+			azimut=-288.68439;
+			id=88;
+			side="EMPTY";
+			vehicle="Land_LampShabby_F";
+			skill=0.60000002;
+		};
+		class Item44
+		{
+			position[]={23221.576,13.234854,19919.293};
+			azimut=-64.538933;
+			id=89;
+			side="EMPTY";
+			vehicle="Land_LampShabby_F";
+			skill=0.60000002;
+		};
+		class Item45
+		{
+			position[]={23213.041,13.21061,19909.791};
+			id=90;
+			side="EMPTY";
+			vehicle="Land_LampShabby_F";
+			skill=0.60000002;
+		};
+		class Item46
+		{
+			position[]={27087.402,13.920136,23442.398};
+			azimut=43.375202;
+			id=91;
+			side="EMPTY";
+			vehicle="Land_LampShabby_F";
+			skill=0.60000002;
+		};
+		class Item47
+		{
+			position[]={27098.951,13.878161,23443.607};
+			azimut=-245.30914;
+			id=92;
+			side="EMPTY";
+			vehicle="Land_LampShabby_F";
+			skill=0.60000002;
+		};
+		class Item48
+		{
+			position[]={27100.957,14.188151,23434.771};
+			azimut=-21.163729;
+			id=93;
+			side="EMPTY";
+			vehicle="Land_LampShabby_F";
+			skill=0.60000002;
+		};
+		class Item49
+		{
+			position[]={27088.227,14.230888,23433.725};
+			azimut=43.375202;
+			id=94;
+			side="EMPTY";
+			vehicle="Land_LampShabby_F";
+			skill=0.60000002;
 		};
 	};
 	class Markers
