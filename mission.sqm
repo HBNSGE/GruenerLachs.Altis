@@ -1618,7 +1618,7 @@ class Mission
 					skill=0.60000002;
 					text="support_respawn_east";
 					syncId=13;
-					synchronizations[]={41,44,45};
+					synchronizations[]={41,45,44};
 				};
 			};
 		};
@@ -2827,7 +2827,7 @@ class Mission
 			vehicle="O_Truck_03_repair_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			syncId=43;
+			syncId=44;
 			synchronizations[]={13};
 		};
 		class Item41
@@ -2839,7 +2839,7 @@ class Mission
 			vehicle="O_Truck_03_fuel_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			syncId=44;
+			syncId=45;
 			synchronizations[]={13};
 		};
 	};

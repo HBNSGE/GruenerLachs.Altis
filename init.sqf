@@ -4,5 +4,5 @@ GruenerLachsShowCountDown = {
 };
 
 if (isServer) then {
-	nul = [300] execVM "countdown.sqf";
+	nul = [300] execVM "scripts\countdown.sqf";
 };
