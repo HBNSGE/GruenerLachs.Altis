@@ -462,7 +462,7 @@ class Mission
 					skill=0.60000002;
 					text="punisher_respawn_east";
 					syncId=3;
-					synchronizations[]={30,31,32,33};
+					synchronizations[]={31,32,33,34};
 				};
 			};
 		};
@@ -1618,7 +1618,7 @@ class Mission
 					skill=0.60000002;
 					text="support_respawn_east";
 					syncId=13;
-					synchronizations[]={40,44,45};
+					synchronizations[]={41,44,45};
 				};
 			};
 		};
@@ -1797,7 +1797,7 @@ class Mission
 					skill=0.60000002;
 					text="tank_respawn_east";
 					syncId=14;
-					synchronizations[]={35,34};
+					synchronizations[]={36,35};
 				};
 			};
 		};
@@ -1882,7 +1882,7 @@ class Mission
 					skill=0.60000002;
 					text="support_respawn_west";
 					syncId=15;
-					synchronizations[]={39,41,42};
+					synchronizations[]={40,42,43};
 				};
 			};
 		};
@@ -1967,7 +1967,7 @@ class Mission
 					skill=0.60000002;
 					text="tank_respawn_west";
 					syncId=16;
-					synchronizations[]={43,27};
+					synchronizations[]={28,27};
 				};
 			};
 		};
@@ -2052,7 +2052,7 @@ class Mission
 					skill=0.60000002;
 					text="light_heli_respawn_west";
 					syncId=17;
-					synchronizations[]={28,29};
+					synchronizations[]={29,30};
 				};
 			};
 		};
@@ -2222,7 +2222,7 @@ class Mission
 					skill=0.60000002;
 					text="attack_heli_respawn_east";
 					syncId=19;
-					synchronizations[]={36};
+					synchronizations[]={37};
 				};
 			};
 		};
@@ -2307,7 +2307,7 @@ class Mission
 					skill=0.60000002;
 					text="light_heli_respawn_east";
 					syncId=20;
-					synchronizations[]={38,37};
+					synchronizations[]={39,38};
 				};
 			};
 		};
@@ -2358,7 +2358,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=43;
+		items=42;
 		class Item0
 		{
 			position[]={23207.439,13.304402,19894.887};
@@ -2428,6 +2428,8 @@ class Mission
 			vehicle="BWA3_Leopard2A6M_Tropen";
 			skill=0.60000002;
 			text="vb5";
+			syncId=27;
+			synchronizations[]={16};
 		};
 		class Item6
 		{
@@ -2438,7 +2440,7 @@ class Mission
 			vehicle="BWA3_Puma_Tropen";
 			skill=0.60000002;
 			text="vb6";
-			syncId=27;
+			syncId=28;
 			synchronizations[]={16};
 		};
 		class Item7
@@ -2450,7 +2452,7 @@ class Mission
 			vehicle="B_Heli_Light_01_F";
 			skill=0.60000002;
 			text="vb7";
-			syncId=28;
+			syncId=29;
 			synchronizations[]={17};
 		};
 		class Item8
@@ -2462,7 +2464,7 @@ class Mission
 			vehicle="B_Heli_Light_01_F";
 			skill=0.60000002;
 			text="vb8";
-			syncId=29;
+			syncId=30;
 			synchronizations[]={17};
 		};
 		class Item9
@@ -2474,7 +2476,7 @@ class Mission
 			vehicle="O_MRAP_02_F";
 			skill=0.60000002;
 			text="vo1";
-			syncId=30;
+			syncId=31;
 			synchronizations[]={3};
 		};
 		class Item10
@@ -2486,7 +2488,7 @@ class Mission
 			vehicle="O_MRAP_02_F";
 			skill=0.60000002;
 			text="vo2";
-			syncId=31;
+			syncId=32;
 			synchronizations[]={3};
 		};
 		class Item11
@@ -2498,7 +2500,7 @@ class Mission
 			vehicle="O_MRAP_02_F";
 			skill=0.60000002;
 			text="vo3";
-			syncId=32;
+			syncId=33;
 			synchronizations[]={3};
 		};
 		class Item12
@@ -2510,7 +2512,7 @@ class Mission
 			vehicle="O_MRAP_02_F";
 			skill=0.60000002;
 			text="vo4";
-			syncId=33;
+			syncId=34;
 			synchronizations[]={3};
 		};
 		class Item13
@@ -2522,7 +2524,7 @@ class Mission
 			vehicle="O_APC_Tracked_02_cannon_F";
 			skill=0.60000002;
 			text="vo8";
-			syncId=34;
+			syncId=35;
 			synchronizations[]={14};
 		};
 		class Item14
@@ -2534,7 +2536,7 @@ class Mission
 			vehicle="O_MBT_02_cannon_F";
 			skill=0.60000002;
 			text="vo9";
-			syncId=35;
+			syncId=36;
 			synchronizations[]={14};
 		};
 		class Item15
@@ -2721,7 +2723,7 @@ class Mission
 			side="EMPTY";
 			vehicle="O_Heli_Attack_02_F";
 			skill=0.60000002;
-			syncId=36;
+			syncId=37;
 			synchronizations[]={19};
 		};
 		class Item32
@@ -2732,7 +2734,7 @@ class Mission
 			side="EMPTY";
 			vehicle="O_Heli_Light_02_unarmed_F";
 			skill=0.60000002;
-			syncId=37;
+			syncId=38;
 			synchronizations[]={20};
 		};
 		class Item33
@@ -2743,7 +2745,7 @@ class Mission
 			side="EMPTY";
 			vehicle="O_Heli_Light_02_unarmed_F";
 			skill=0.60000002;
-			syncId=38;
+			syncId=39;
 			synchronizations[]={20};
 		};
 		class Item34
@@ -2764,7 +2766,7 @@ class Mission
 			vehicle="B_Truck_01_ammo_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			syncId=39;
+			syncId=40;
 			synchronizations[]={15};
 		};
 		class Item36
@@ -2776,7 +2778,7 @@ class Mission
 			vehicle="O_Truck_03_ammo_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			syncId=40;
+			syncId=41;
 			synchronizations[]={13};
 		};
 		class Item37
@@ -2801,7 +2803,7 @@ class Mission
 			vehicle="B_Truck_01_Repair_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			syncId=41;
+			syncId=42;
 			synchronizations[]={15};
 		};
 		class Item39
@@ -2813,25 +2815,14 @@ class Mission
 			vehicle="B_Truck_01_fuel_F";
 			lock="UNLOCKED";
 			skill=0.60000002;
-			syncId=42;
+			syncId=43;
 			synchronizations[]={15};
 		};
 		class Item40
 		{
-			position[]={23192.652,15.851306,19885.383};
-			azimut=60.569901;
-			id=85;
-			side="EMPTY";
-			vehicle="BWA3_Puma_Tropen";
-			skill=0.60000002;
-			syncId=43;
-			synchronizations[]={16};
-		};
-		class Item41
-		{
 			position[]={27108.324,14.845058,23418.191};
 			azimut=341.04501;
-			id=86;
+			id=85;
 			side="EMPTY";
 			vehicle="O_Truck_03_repair_F";
 			lock="UNLOCKED";
@@ -2839,11 +2830,11 @@ class Mission
 			syncId=44;
 			synchronizations[]={13};
 		};
-		class Item42
+		class Item41
 		{
 			position[]={27115.469,14.742778,23420.539};
 			azimut=341.04501;
-			id=87;
+			id=86;
 			side="EMPTY";
 			vehicle="O_Truck_03_fuel_F";
 			lock="UNLOCKED";
