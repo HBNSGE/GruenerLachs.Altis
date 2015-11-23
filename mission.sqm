@@ -415,7 +415,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="";
+							value="(_this select 0) call OGLClearCargo;";
 							parentCls="ModuleRespawnVehicle_F";
 							typeName="Init";
 						};
@@ -1571,7 +1571,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="";
+							value="(_this select 0) call OGLClearCargo;";
 							parentCls="ModuleRespawnVehicle_F";
 							typeName="Init";
 						};
@@ -1750,7 +1750,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="";
+							value="(_this select 0) call OGLClearCargo;";
 							parentCls="ModuleRespawnVehicle_F";
 							typeName="Init";
 						};
@@ -1835,7 +1835,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="";
+							value="(_this select 0) call OGLClearCargo;";
 							parentCls="ModuleRespawnVehicle_F";
 							typeName="Init";
 						};
@@ -1920,7 +1920,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="";
+							value="(_this select 0) call OGLClearCargo;";
 							parentCls="ModuleRespawnVehicle_F";
 							typeName="Init";
 						};
@@ -2005,7 +2005,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="";
+							value="(_this select 0) call OGLClearCargo;";
 							parentCls="ModuleRespawnVehicle_F";
 							typeName="Init";
 						};
@@ -2090,7 +2090,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="";
+							value="(_this select 0) call OGLClearCargo;";
 							parentCls="ModuleRespawnVehicle_F";
 							typeName="Init";
 						};
@@ -2175,7 +2175,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="";
+							value="(_this select 0) call OGLClearCargo;";
 							parentCls="ModuleRespawnVehicle_F";
 							typeName="Init";
 						};
@@ -2260,7 +2260,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="";
+							value="(_this select 0) call OGLClearCargo;";
 							parentCls="ModuleRespawnVehicle_F";
 							typeName="Init";
 						};
