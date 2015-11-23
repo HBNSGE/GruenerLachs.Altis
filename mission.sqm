@@ -330,7 +330,7 @@ class Mission
 						};
 						class Item3
 						{
-							value="";
+							value="(_this select 0) call OGLClearCargo;";
 							parentCls="ModuleRespawnVehicle_F";
 							typeName="Init";
 						};
@@ -2423,7 +2423,7 @@ class Mission
 		};
 		class Item5
 		{
-			position[]={23193.541,13.395276,19882.879};
+			position[]={23191.695,13.397737,19883.186};
 			azimut=60.569901;
 			id=50;
 			side="EMPTY";
@@ -2435,7 +2435,7 @@ class Mission
 		};
 		class Item6
 		{
-			position[]={23196.74,13.391922,19875.074};
+			position[]={23197.666,13.389556,19876};
 			azimut=60.569901;
 			id=51;
 			side="EMPTY";
