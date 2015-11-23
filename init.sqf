@@ -8,4 +8,6 @@ if (isServer) then {
 	nul = [300] execVM "scripts\countdown.sqf";
 };
 //Scripts run by player
-execVM "scripts\restrictions.sqf";
+if (isDedicated) then {
+	execVM "scripts\restrictions.sqf";
+};
