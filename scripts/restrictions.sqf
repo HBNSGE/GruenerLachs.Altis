@@ -1,6 +1,5 @@
-variable = true;
 
-while {variable} do {
+while {true} do {
 
     _forbiddenobject = getPos player nearestObject "I_static_AA_F";
 	_forbiddenobject2 = getPos player nearestObject "O_static_AA_F";
@@ -52,6 +51,6 @@ while {variable} do {
 	deleteVehicle _forbiddenobject23;
 	deleteVehicle _forbiddenobject24;
 	
-   sleep 5; 
+   sleep 60; 
 
 };
