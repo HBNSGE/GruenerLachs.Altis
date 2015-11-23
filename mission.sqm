@@ -3848,32 +3848,34 @@ class Mission
 		items=2;
 		class Item0
 		{
-			position[]={27108.014,13.912878,23442.418};
+			position[]={23222.002,13.236812,19894.719};
 			a=200;
 			b=200;
-			activationBy="WEST";
+			activationBy="ANY";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
-			name="opfor_protection";
+			name="blufor_protection";
 			expCond="Player in thislist;";
-			expActiv="player setdamage 1; hint ""Keine Spawnzonen belagern! ;)""";
+			expActiv="player allowDamage false;";
+			expDesactiv="player allowDamage true;";
 			class Effects
 			{
 			};
 		};
 		class Item1
 		{
-			position[]={23222.002,13.236812,19894.719};
+			position[]={27110.736,14.215573,23434.01};
 			a=200;
 			b=200;
-			activationBy="EAST";
+			activationBy="ANY";
 			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
-			name="blufor_protection";
+			name="blufor_protection_1";
 			expCond="Player in thislist;";
-			expActiv="player setdamage 1; hint ""Keine Spawnzonen belagern! ;)""";
+			expActiv="player allowDamage false;";
+			expDesactiv="player allowDamage true;";
 			class Effects
 			{
 			};
