@@ -2561,7 +2561,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="ne_sc2_laptop";
-			init="this attachTo [ne_sc2_table, [0,0,0.56]]; this addAction [localize ""str_gruenerlachs_take_control"", {[ne_sc2, side (_this select 1)] call BIS_fnc_moduleSector}];";
+			init="this attachTo [ne_sc2_table, [0,0,0.56]]; this addAction [localize ""str_gruenerlachs_take_control"", {[ne_sc2, side (_this select 1)] call BIS_fnc_moduleSector}]; this enableSimulation false;";
 		};
 		class Item17
 		{
@@ -2572,6 +2572,7 @@ class Mission
 			vehicle="Land_CampingTable_F";
 			skill=0.60000002;
 			text="ne_sc2_table";
+			init="this enableSimulation false;";
 		};
 		class Item18
 		{
@@ -2619,7 +2620,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="ne_sc4_laptop";
-			init="this attachTo [ne_sc4_table, [0,0,0.56]]; this addAction [localize ""str_gruenerlachs_take_control"", {[ne_sc4, side (_this select 1)] call BIS_fnc_moduleSector}];";
+			init="this attachTo [ne_sc4_table, [0,0,0.56]]; this addAction [localize ""str_gruenerlachs_take_control"", {[ne_sc4, side (_this select 1)] call BIS_fnc_moduleSector}]; this enableSimulation false;";
 		};
 		class Item22
 		{
@@ -2630,6 +2631,7 @@ class Mission
 			vehicle="Land_CampingTable_F";
 			skill=0.60000002;
 			text="ne_sc4_table";
+			init="this enableSimulation false;";
 		};
 		class Item23
 		{
@@ -2651,7 +2653,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="ne_sc5_laptop";
-			init="this attachTo [ne_sc5_table, [0,0,0.56]]; this addAction [localize ""str_gruenerlachs_take_control"", {[ne_sc5, side (_this select 1)] call BIS_fnc_moduleSector}];";
+			init="this attachTo [ne_sc5_table, [0,0,0.56]]; this addAction [localize ""str_gruenerlachs_take_control"", {[ne_sc5, side (_this select 1)] call BIS_fnc_moduleSector}]; this enableSimulation false;";
 		};
 		class Item25
 		{
@@ -2662,6 +2664,7 @@ class Mission
 			vehicle="Land_CampingTable_F";
 			skill=0.60000002;
 			text="ne_sc5_table";
+			init="this enableSimulation false;";
 		};
 		class Item26
 		{
@@ -2698,24 +2701,25 @@ class Mission
 		class Item29
 		{
 			position[]={25313.061,82.134422,21807.715};
-			azimut=-361.65103;
+			azimut=-361.651;
 			id=74;
 			side="EMPTY";
 			vehicle="Land_Laptop_unfolded_F";
 			leader=1;
 			skill=0.60000002;
 			text="ne_sc6_laptop";
-			init="this attachTo [ne_sc6_table, [0,0,0.56]]; this addAction [localize ""str_gruenerlachs_take_control"", {[ne_sc6, side (_this select 1)] call BIS_fnc_moduleSector}];";
+			init="this attachTo [ne_sc6_table, [0,0,0.56]]; this addAction [localize ""str_gruenerlachs_take_control"", {[ne_sc6, side (_this select 1)] call BIS_fnc_moduleSector}]; this enableSimulation false;";
 		};
 		class Item30
 		{
 			position[]={25314.162,82.14106,21810.561};
-			azimut=-89.731926;
+			azimut=-89.731903;
 			id=75;
 			side="EMPTY";
 			vehicle="Land_CampingTable_F";
 			skill=0.60000002;
 			text="ne_sc6_table";
+			init="this enableSimulation false;";
 		};
 		class Item31
 		{
