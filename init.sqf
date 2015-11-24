@@ -12,4 +12,5 @@ if (isServer) then {
 //Scripts run by player
 if (!isDedicated) then {
 	nul = execVM "scripts\restrictions.sqf";
+	nul = execVM "scripts\keys.sqf";
 };
