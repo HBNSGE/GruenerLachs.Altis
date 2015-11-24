@@ -6,4 +6,5 @@ if (!isServer) exitWith {};
 clearWeaponCargoGlobal _this;
 clearItemCargoGlobal _this;
 clearMagazineCargoGlobal _this;
+clearBackpackCargoGlobal _this;
 _this addItemCargoGlobal ["Toolkit",1];
