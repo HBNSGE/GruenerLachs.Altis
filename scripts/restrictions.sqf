@@ -51,6 +51,6 @@ while {true} do {
 	deleteVehicle _forbiddenobject23;
 	deleteVehicle _forbiddenobject24;
 	
-   sleep 60; 
+   sleep 5; 
 
 };
