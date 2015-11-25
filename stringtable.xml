@@ -64,6 +64,11 @@
 				<English>Tickets</English>
 				<German>Tickets</German>
 			</Key>
+			<Key ID="str_gruenerlachs_viewdistance">
+				<Original>View distance (in metres)</Original>
+				<English>View distance (in metres)</English>
+				<German>Sichtweite (in Metern)</German>
+			</Key>
 		</Container>
 		<Container name="General">
 			<Key ID="str_gruenerlachs_virtual_arsenal">
