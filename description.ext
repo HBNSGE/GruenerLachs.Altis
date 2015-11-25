@@ -6,8 +6,7 @@ author = "HBNSGE";
 saving = 0;
 overviewText = $STR_gruenerlachs_overview_text;
 overviewTextLocked = $STR_gruenerlachs_overview_text;
-overviewPicture = "overviw.paa";
-loadScreen = "overviw.paa";
+overviewPicture = "images\overview.paa";
 
 class Header
 {
