@@ -2381,7 +2381,7 @@ class Mission
 			azimut=61.135201;
 			id=46;
 			side="EMPTY";
-			vehicle="BWA3_Tiger_RMK_Universal";
+			vehicle="BWA3_Tiger_RMK_Heavy";
 			skill=0.60000002;
 			text="vb9";
 			syncId=23;
