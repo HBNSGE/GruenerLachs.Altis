@@ -1126,7 +1126,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={17278.959,-0.00012746919,21200.803};
+					position[]={19015.926,-0.0045628217,22428.008};
 					azimut=-2.4560499;
 					class args
 					{
@@ -2560,6 +2560,7 @@ class Mission
 				items=1;
 				class Item0
 				{
+					presenceCondition="(paramsArray select 10) == 1;";
 					position[]={28991.201,0.0051861117,29338.904};
 					azimut=-2.4560499;
 					class args
@@ -2597,7 +2598,6 @@ class Mission
 					lock="UNLOCKED";
 					skill=0.60000002;
 					text="winddeflection_enabled";
-					description="(paramsArray select 10) == 1;";
 				};
 			};
 		};
