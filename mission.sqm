@@ -981,19 +981,19 @@ class Mission
 						items=3;
 						class Item0
 						{
-							value="0";
+							value="1";
 							parentCls="ACE_moduleReviveSettings";
 							typeName="enableRevive";
 						};
 						class Item1
 						{
-							value="40";
+							value="60";
 							parentCls="ACE_moduleReviveSettings";
 							typeName="maxReviveTime";
 						};
 						class Item2
 						{
-							value="-1";
+							value="3";
 							parentCls="ACE_moduleReviveSettings";
 							typeName="amountOfReviveLives";
 						};
@@ -1047,7 +1047,7 @@ class Mission
 						};
 						class Item4
 						{
-							value="0";
+							value="1";
 							parentCls="ACE_moduleMedicalSettings";
 							typeName="enableScreams";
 						};
@@ -1671,13 +1671,13 @@ class Mission
 						};
 						class Item5
 						{
-							value="0";
+							value="1";
 							parentCls="tfar_ModuleTaskForceRadioEnforceUsage";
 							typeName="same_sw_frequencies_for_side";
 						};
 						class Item6
 						{
-							value="0";
+							value="1";
 							parentCls="tfar_ModuleTaskForceRadioEnforceUsage";
 							typeName="same_lr_frequencies_for_side";
 						};
