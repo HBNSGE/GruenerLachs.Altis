@@ -69,6 +69,41 @@
 				<English>View distance (in metres)</English>
 				<German>Sichtweite (in Metern)</German>
 			</Key>
+			<Key ID="str_gruenerlachs_advanced_ballistics">
+				<Original>Advanced Ballistics</Original>
+				<English>Advanced Ballistics</English>
+				<German>Erweiterte Ballistik</German>
+			</Key>
+			<Key ID="str_gruenerlachs_ab_disabled">
+				<Original>Disabled</Original>
+				<English>Disabled</English>
+				<German>Deaktiviert</German>
+			</Key>
+			<Key ID="str_gruenerlachs_ab_snipers">
+				<Original>Snipers only</Original>
+				<English>Snipers only</English>
+				<German>Nur Scharfschützen</German>
+			</Key>
+			<Key ID="str_gruenerlachs_ab_all">
+				<Original>All (can decrease performance)</Original>
+				<English>All (can decrease performance)</English>
+				<German>Alle (kann die Leistung verringern)</German>
+			</Key>
+			<Key ID="str_gruenerlachs_wind_deflection">
+				<Original>Wind Deflection</Original>
+				<English>Wind Deflection</English>
+				<German>Windablenkung</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_disabled">
+				<Original>Disabled</Original>
+				<English>Disabled</English>
+				<German>Deaktiviert</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_enabled">
+				<Original>Enabled</Original>
+				<English>Enabled</English>
+				<German>Aktiviert</German>
+			</Key>
 		</Container>
 		<Container name="General">
 			<Key ID="str_gruenerlachs_virtual_arsenal">

@@ -77,4 +77,23 @@ class Params
 		default = 1500;
 		file = "scripts\setViewDistance.sqf"; // (Optional) Script called when player joins, selected value is passed as an argument
 	};
+	
+	class AdvancedBallistics
+	{
+		title = $STR_gruenerlachs_advanced_ballistics
+		values[] = {0,1,2};
+		texts[] = {$STR_gruenerlachs_ab_disabled,$STR_gruenerlachs_ab_snipers,$STR_gruenerlachs_ab_all};
+		default = 1;
+	};
+	
+	class WindDeflection
+	{
+		title = $STR_gruenerlachs_wind_deflection
+		values[] = {0,1};
+		texts[] = {$STR_gruenerlachs_param_disabled,$STR_gruenerlachs_param_enabled};
+		default = 1;
+	};
+	
+	#define WEATHER_DEFAULT 25
+	#include "\a3\functions_f\Params\paramWeather.hpp"
 };
