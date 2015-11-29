@@ -140,6 +140,7 @@ class Mission
 					rank="CORPORAL";
 					skill=0.60000002;
 					text="ne2_west";
+					init="this addBackpack ""tf_rt1523g_big_bwmod"";";
 					description="2: Funker";
 				};
 				class Item2
@@ -241,7 +242,8 @@ class Mission
 					player="PLAY CDG";
 					skill=0.60000002;
 					text="ne2_east";
-					description="Funker";
+					init="this addBackpack ""tf_mr3000_multicam"";";
+					description="2: Funker";
 				};
 				class Item2
 				{
