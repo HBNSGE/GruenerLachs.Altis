@@ -15,6 +15,10 @@ class Header
 	maxPlayers = 16; //max # of players the mission supports
 };
 
+class CfgFunctions {
+	#include "HBNSGE_A3_Tools\cfgFunctionsHBNSGE_A3_Tools.hpp"
+};
+
 class Params
 {
 	class Daytime
@@ -89,6 +93,20 @@ class Params
 	class WindDeflection
 	{
 		title = $STR_gruenerlachs_wind_deflection;
+		values[] = {0,1};
+		texts[] = {$STR_gruenerlachs_param_disabled,$STR_gruenerlachs_param_enabled};
+		default = 1;
+	};
+	
+	//class SupplySupport {
+//		title = $STR_gruenerlach_param_supply_support;
+		//values[] = {0,300,600,900,1200};
+		//texts[] = {$STR_gruenerlachs_param_disabled,$STR_gruenerlachs_param_5_mins,$STR_gruenerlachs_param_10_mins,$STR_gruenerlachs_param_15_mins,$STR_gruenerlachs_param_20_mins};
+		//default = 600;
+	//};
+	
+	class SupplySupport {
+		title = $STR_gruenerlach_param_supply_support;
 		values[] = {0,1};
 		texts[] = {$STR_gruenerlachs_param_disabled,$STR_gruenerlachs_param_enabled};
 		default = 1;

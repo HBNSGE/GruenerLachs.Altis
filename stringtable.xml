@@ -104,6 +104,31 @@
 				<English>Enabled</English>
 				<German>Aktiviert</German>
 			</Key>
+			<Key ID="str_gruenerlach_param_supply_support">
+				<Original>Supply drop request availability</Original>
+				<English>Supply drop request availability</English>
+				<German>Verfügbarkeit von Versorgungsabwürfen</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_5_mins">
+				<Original>5 minutes</Original>
+				<English>5 minutes</English>
+				<German>5 Minuten</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_10_mins">
+				<Original>10 minutes</Original>
+				<English>10 minutes</English>
+				<German>10 Minuten</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_15_mins">
+				<Original>15 minutes</Original>
+				<English>15 minutes</English>
+				<German>15 Minuten</German>
+			</Key>
+			<Key ID="str_gruenerlachs_param_20_mins">
+				<Original>20 minutes</Original>
+				<English>20 minutes</English>
+				<German>20 Minuten</German>
+			</Key>
 		</Container>
 		<Container name="General">
 			<Key ID="str_gruenerlachs_virtual_arsenal">
