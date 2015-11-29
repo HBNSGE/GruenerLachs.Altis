@@ -88,7 +88,7 @@ class Mission
 	randomSeed=15695273;
 	class Intel
 	{
-		briefingName="[SC] Grüner Lachs 1.0.0";
+		briefingName="SC 18 Grüner Lachs 1.0.0";
 		startWeather=0.29999998;
 		startWind=0.099999994;
 		startWaves=0.099999994;
