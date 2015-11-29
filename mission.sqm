@@ -37,7 +37,6 @@ class Mission
 		"A3_Soft_F_Gamma_HEMTT",
 		"A3_Soft_F_EPC_Truck_03",
 		"A3_Structures_F_Civ_Lamps",
-		"A3_Structures_F_Civ_InfoBoards",
 		"ace_mk6mortar",
 		"ace_advanced_ballistics",
 		"ace_weather",
@@ -84,7 +83,6 @@ class Mission
 		"A3_Soft_F_Gamma_HEMTT",
 		"A3_Soft_F_EPC_Truck_03",
 		"A3_Structures_F_Civ_Lamps",
-		"A3_Structures_F_Civ_InfoBoards",
 		"a3_map_altis"
 	};
 	randomSeed=15695273;
@@ -3069,7 +3067,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=52;
+		items=50;
 		class Item0
 		{
 			position[]={23207.439,13.304402,19894.887};
@@ -3626,26 +3624,6 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_LampShabby_F";
 			skill=0.60000002;
-		};
-		class Item50
-		{
-			position[]={23228.676,13.210645,19916.514};
-			azimut=-336.668;
-			id=106;
-			side="EMPTY";
-			vehicle="Land_Billboard_F";
-			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""images\hbnsge.jpg""];";
-		};
-		class Item51
-		{
-			position[]={27105.014,14.267715,23432.563};
-			azimut=70.521896;
-			id=107;
-			side="EMPTY";
-			vehicle="Land_Billboard_F";
-			skill=0.60000002;
-			init="this enableSimulation false; this allowDamage false; this setObjectTexture [0, ""images\hbnsge.jpg""];";
 		};
 	};
 	class Markers
