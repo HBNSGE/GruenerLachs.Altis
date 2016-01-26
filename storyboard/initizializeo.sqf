@@ -1,1 +1,1 @@
-[opfor,["tasko1"],["Nehmen Sie die 5 Sektoren ein und halten Sie diese.","Sektoren einnehmen und halten!",""],[],1,2,true] call BIS_fnc_taskCreate
+[opfor,["tasko1"],["Rüsten Sie sich aus und warten Sie auf weitere Befehle.","Ausrüsten.",""],[],1,2,true] call BIS_fnc_taskCreate

@@ -11,3 +11,5 @@ While {_i < _n} do {
 };
 
 {_x allowDamage true; _x lock 0} forEach vehicles;
+nul = execVM "storyboard\initialize2.sqf";    //Tasks for WEST
+nul = execVM "storyboard\initizializeo2.sqf"; //Taks for EAST
