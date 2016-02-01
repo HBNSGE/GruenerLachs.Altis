@@ -191,5 +191,41 @@
 				<German>M</German>
 			</Key>
 		</Container>
+		<Container name="tasks_descriptions">
+			<Key ID="str_gruenerlachs_d_taskw1">
+				<Original>Get your gear and wait for further instructions.</Original>
+				<German>Ausrüsten und auf weitere Anweisungen warten.</German>
+			</Key>
+			<Key ID="str_gruenerlachs_d_taskw2">
+				<Original>Take control of the 5 sectors and keep defending them.</Original>
+				<German>Nehmen Sie die fünf Sektoren ein und halten Sie diese.</German>
+			</Key>
+			<Key ID="str_gruenerlachs_d_tasko1">
+				<Original>Get your gear and wait for further instructions.</Original>
+				<German>Ausrüsten und auf weitere Anweisungen warten.</German>
+			</Key>
+			<Key ID="str_gruenerlachs_d_tasko2">
+				<Original>Take control of the 5 sectors and keep defending them.</Original>
+				<German>Nehmen Sie die fünf Sektoren ein und halten Sie diese.</German>
+			</Key>
+		</Container>
+				<Container name="tasks_title">
+			<Key ID="str_gruenerlachs_t_taskw1">
+				<Original>Get Gear and wait</Original>
+				<German>Ausrüsten und warten</German>
+			</Key>
+			<Key ID="str_gruenerlachs_t_taskw2">
+				<Original>Capture sectors</Original>
+				<German>Sektoren einnehmen</German>
+			</Key>
+			<Key ID="str_gruenerlachs_t_tasko1">
+				<Original>Get Gear and wait</Original>
+				<German>Ausrüsten und warten</German>
+			</Key>
+			<Key ID="str_gruenerlachs_t_tasko2">
+				<Original>Capture sectors</Original>
+				<German>Sektoren einnehmen</German>
+			</Key>
+		</Container>
 	</Package>
 </Project>	

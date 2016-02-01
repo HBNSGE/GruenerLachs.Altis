@@ -1,1 +1,1 @@
-[blufor,["taskw1"],["Rüsten Sie sich aus und warten Sie auf weitere Befehle.","Ausrüsten.",""],[],1,2,true] call BIS_fnc_taskCreate
+[blufor, "taskw1","wTask1",[],1,2,true] call BIS_fnc_taskCreate

@@ -112,3 +112,25 @@ class Params
 		default = 1;
 	};
 };
+
+class CfgTaskDescriptions {
+	class wTask1 {
+		description = $STR_gruenerlachs_d_taskw1;
+		title = $STR_gruenerlachs_t_taskw1;	
+	};
+	
+	class wTask2 {
+		description = $STR_gruenerlachs_d_taskw2;
+		title = $STR_gruenerlachs_t_taskw2;
+	};
+	
+	class oTask1 {
+		description = $STR_gruenerlachs_d_tasko1;
+		title = $STR_gruenerlachs_t_tasko1;
+	};
+	
+	class oTask2 {
+		description = $STR_gruenerlachs_d_tasko2;
+		title = $STR_gruenerlachs_t_tasko2;
+	};
+};
